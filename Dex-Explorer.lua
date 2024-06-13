@@ -5,7 +5,7 @@
 	New Dex
 	Final Version
 	Developed by Moon
-	Modified for Infinite Yield
+	Modified by lo2z
 	
 	Dex is a debugging suite designed to help the user debug games and find any potential vulnerabilities.
 ]]
