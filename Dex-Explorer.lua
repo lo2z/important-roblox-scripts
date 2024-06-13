@@ -1,4 +1,5 @@
--- Forked from: https://github.com/infyiff/backup/blob/main/dex.lua
+-- Forked version of https://github.com/infyiff/backup/blob/main/dex.lua, anyways 
+-- https://github.com/LorekeeperZinnia/Dex
 
 --[[
 	New Dex
