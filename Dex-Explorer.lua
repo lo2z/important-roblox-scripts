@@ -1,4 +1,26 @@
 -- Forked from: https://github.com/infyiff/backup/blob/main/dex.lua
+
+--[[
+	New Dex
+	Final Version
+	Developed by Moon
+	Modified for Infinite Yield
+	
+	Dex is a debugging suite designed to help the user debug games and find any potential vulnerabilities.
+]]
+
+local nodes = {}
+local selection
+local cloneref = cloneref or function(...) return ... end
+
+local EmbeddedModules = {
+Explorer = function()
+--[[
+	Explorer App Module
+	
+	The main explorer interface
+]]
+
 -- Common Locals
 local Main,Lib,Apps,Settings -- Main Containers
 local Explorer, Properties, ScriptViewer, Notebook -- Major Apps
