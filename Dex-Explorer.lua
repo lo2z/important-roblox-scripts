@@ -8,17 +8,6 @@
 	
 	Dex is a debugging suite designed to help the user debug games and find any potential vulnerabilities.
 ]]
-script.Parent.MouseButton1Down:Connect(function()
-    down = true
-    task.spawn(function()
-        repeat wait(0.1)
-            timeBetween += 1
-        until timeBetween == 2 or down == false
-        if timeBetween ~= 2 then return end
-        game:GetService("VirtualInputManager"):SendKeyEvent(true, "MouseButton2" , false , game)
-    end)
-end)
-
 script.Parent.MouseButton1Up:Connect(function()
     timeBetween = 0
     down = false
